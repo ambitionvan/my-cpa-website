@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joseph Zhu CPA, CGA</title>
+    <title>Joseph Zhu CPA, CGA - Tax & Accounting Insights</title>
     
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -36,7 +36,6 @@
             <div class="relative group cursor-pointer flex items-center space-x-2 text-sm font-medium">
                 <span>WeChat: YourTaxHelper</span>
                 <div class="absolute right-0 top-full mt-2 hidden group-hover:flex flex-col items-center bg-white p-3 rounded-lg shadow-2xl border border-slate-200 z-50 text-slate-800">
-                    <!-- 微信二维码 (已匹配 qrcode.jpg) -->
                     <img src="qrcode.jpg" alt="WeChat QR Code" class="w-32 h-32 rounded border border-slate-100 object-contain">
                     <span class="text-xs text-slate-500 mt-2 font-normal lang-en">Scan to add WeChat</span>
                     <span class="text-xs text-slate-500 mt-2 font-normal lang-zh hidden">扫码添加微信</span>
@@ -46,7 +45,7 @@
     </div>
 
     <!-- ==========================================
-         2. HEADER & NAVIGATION (导航栏与语言切换)
+         2. HEADER & NAVIGATION
     =========================================== -->
     <header class="bg-slate-900 text-white border-b border-slate-800 sticky top-0 z-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-12 py-4 flex justify-between items-center">
@@ -63,6 +62,9 @@
                 </button>
                 <button onclick="switchPage('services')" id="nav-services" class="nav-btn text-white hover:text-brand-green transition">
                     <span class="lang-en">Services</span><span class="lang-zh hidden">服务项目</span>
+                </button>
+                <button onclick="switchPage('blog')" id="nav-blog" class="nav-btn text-white hover:text-brand-green transition">
+                    <span class="lang-en">Blog</span><span class="lang-zh hidden">财税资讯</span>
                 </button>
                 <button onclick="switchPage('contact')" id="nav-contact" class="nav-btn text-white hover:text-brand-green transition">
                     <span class="lang-en">Contact</span><span class="lang-zh hidden">联系我们</span>
@@ -82,7 +84,7 @@
     </header>
 
     <!-- ==========================================
-         3. PAGE CONTENTS (双语多页面)
+         3. PAGE CONTENTS
     =========================================== -->
     <main class="flex-grow">
         
@@ -99,10 +101,13 @@
                             </h2>
                             <div class="w-16 h-1 bg-brand-green mt-2 mx-auto lg:mx-0"></div>
                         </div>
-                        <h1 class="text-3xl sm:text-5xl font-bold text-white leading-tight mb-8">
-                            <span class="lang-en">Professional CPA, CGA Answering Your Most Concerned Questions</span>
-                            <span class="lang-zh hidden">专业特许执业会计师 (CPA, CGA) 为您解答核心疑问</span>
+                        
+                        <!-- 更新后的标语 -->
+                        <h1 class="text-2xl sm:text-4xl font-bold text-white leading-tight mb-8">
+                            <span class="lang-en">Your Virtual Bookkeeper + CPA In-The-Loop Review + Source Document Embedding Audit-Ready Books</span>
+                            <span class="lang-zh hidden">专属云端记账 + CPA 全程复核 + 原始凭证嵌入，打造随时应对审计的精细账目</span>
                         </h1>
+
                         <button onclick="switchPage('services')" class="bg-brand-green hover:bg-brand-green-hover text-white font-semibold px-8 py-3.5 rounded-full uppercase text-sm tracking-wider transition shadow-lg">
                             <span class="lang-en">LEARN MORE</span>
                             <span class="lang-zh hidden">了解更多</span>
@@ -152,7 +157,7 @@
             </div>
         </div>
 
-        <!-- 【页面 2】：ABOUT PAGE (文案已改) -->
+        <!-- 【页面 2】：ABOUT PAGE -->
         <div id="page-about" class="page-content hidden">
             <section class="py-20 px-4 sm:px-12 bg-white">
                 <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -175,7 +180,6 @@
                             <p>我们拥有加拿大 CPA, CGA 执业资质，精通双语，熟知 CRA（加拿大税务局）最新政策，致力于为您实现税务合规与效益最大化。</p>
                         </div>
 
-                        <!-- 个人头像区 (已匹配 avatar.jpg) -->
                         <div class="flex items-center space-x-4 p-4 bg-slate-50 rounded-xl border border-slate-200">
                             <img src="avatar.jpg" alt="Joseph Zhu CPA, CGA" class="w-28 h-28 rounded-lg object-cover shadow-md border border-white">
                             <div>
@@ -237,7 +241,210 @@
             </section>
         </div>
 
-        <!-- 【页面 4】：CONTACT PAGE -->
+        <!-- 【页面 4】：BLOG PAGE (8 篇文章) -->
+        <div id="page-blog" class="page-content hidden">
+            <section class="py-16 px-4 sm:px-12 bg-slate-50 min-h-screen">
+                <div class="max-w-7xl mx-auto">
+                    <!-- 博客标题区 -->
+                    <div class="text-center mb-12">
+                        <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mb-3">
+                            <span class="lang-en">Tax & Accounting Insights</span>
+                            <span class="lang-zh hidden">财税知识与企业指南</span>
+                        </h2>
+                        <p class="text-slate-600 max-w-2xl mx-auto text-sm sm:text-base">
+                            <span class="lang-en">Expert advice, bookkeeping strategy guides, and Canadian tax updates to help your business grow efficiently.</span>
+                            <span class="lang-zh hidden">为您提供专业的会计指导、云端记账策略与加拿大最新税务资讯，助力企业稳健发展。</span>
+                        </p>
+                        <div class="w-16 h-1 bg-brand-green mx-auto mt-4"></div>
+                    </div>
+
+                    <!-- 博客文章网格（共 8 篇） -->
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        
+                        <!-- 文章 1 -->
+                        <article class="bg-white rounded-xl shadow-md overflow-hidden border border-slate-200 flex flex-col justify-between hover:shadow-xl transition">
+                            <div class="p-6">
+                                <div class="text-xs font-semibold text-brand-green uppercase tracking-wider mb-2">Bookkeeping Strategy</div>
+                                <h3 class="text-lg font-bold text-slate-900 mb-3 leading-snug">
+                                    <span class="lang-en">Outsourcing Bookkeeping in Canada: Costs, Benefits, and Best Practices</span>
+                                    <span class="lang-zh hidden">加拿大企业记账外包全指南：成本、效益与合规策略</span>
+                                </h3>
+                                <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                                    <span class="lang-en">Learn what's included in bookkeeping outsourcing, how fees are structured, and how it ensures full CRA compliance.</span>
+                                    <span class="lang-zh hidden">全面了解记账外包的服务范畴、收费结构以及如何助力企业满足税务局合规要求。</span>
+                                </p>
+                            </div>
+                            <div class="px-6 pb-6 pt-0 flex items-center justify-between mt-auto border-t border-slate-100 pt-4">
+                                <span class="text-xs text-slate-400">Sep 2026</span>
+                                <button onclick="openArticle('art-1')" class="text-brand-green font-semibold text-sm hover:underline">
+                                    <span class="lang-en">Read More →</span><span class="lang-zh hidden">阅读全文 →</span>
+                                </button>
+                            </div>
+                        </article>
+
+                        <!-- 文章 2 -->
+                        <article class="bg-white rounded-xl shadow-md overflow-hidden border border-slate-200 flex flex-col justify-between hover:shadow-xl transition">
+                            <div class="p-6">
+                                <div class="text-xs font-semibold text-brand-green uppercase tracking-wider mb-2">CPA Advisory</div>
+                                <h3 class="text-lg font-bold text-slate-900 mb-3 leading-snug">
+                                    <span class="lang-en">How to Find a Great Accountant for Your Canadian Business</span>
+                                    <span class="lang-zh hidden">如何在加拿大寻找并选择最适合您的专业 CPA 会计师</span>
+                                </h3>
+                                <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                                    <span class="lang-en">Key considerations when selecting a CPA: qualifications, industry knowledge, and proactive tax strategy.</span>
+                                    <span class="lang-zh hidden">选择会计师的关键要素：执业资质、行业洞察力以及前瞻性的税务规划能力。</span>
+                                </p>
+                            </div>
+                            <div class="px-6 pb-6 pt-0 flex items-center justify-between mt-auto border-t border-slate-100 pt-4">
+                                <span class="text-xs text-slate-400">Aug 2026</span>
+                                <button onclick="openArticle('art-2')" class="text-brand-green font-semibold text-sm hover:underline">
+                                    <span class="lang-en">Read More →</span><span class="lang-zh hidden">阅读全文 →</span>
+                                </button>
+                            </div>
+                        </article>
+
+                        <!-- 文章 3 -->
+                        <article class="bg-white rounded-xl shadow-md overflow-hidden border border-slate-200 flex flex-col justify-between hover:shadow-xl transition">
+                            <div class="p-6">
+                                <div class="text-xs font-semibold text-brand-green uppercase tracking-wider mb-2">Business Growth</div>
+                                <h3 class="text-lg font-bold text-slate-900 mb-3 leading-snug">
+                                    <span class="lang-en">Why More Canadian Businesses are Choosing Outsourced Bookkeeping</span>
+                                    <span class="lang-zh hidden">为什么越来越多加拿大企业转向记账外包服务？</span>
+                                </h3>
+                                <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                                    <span class="lang-en">Discover the strategic reasons driving Canadian entrepreneurs away from internal accounting clutter towards CPA firms.</span>
+                                    <span class="lang-zh hidden">探讨加拿大企业家告别繁琐内部账目，转而选择专业 CPA 团队的深层原因。</span>
+                                </p>
+                            </div>
+                            <div class="px-6 pb-6 pt-0 flex items-center justify-between mt-auto border-t border-slate-100 pt-4">
+                                <span class="text-xs text-slate-400">Aug 2026</span>
+                                <button onclick="openArticle('art-3')" class="text-brand-green font-semibold text-sm hover:underline">
+                                    <span class="lang-en">Read More →</span><span class="lang-zh hidden">阅读全文 →</span>
+                                </button>
+                            </div>
+                        </article>
+
+                        <!-- 文章 4 -->
+                        <article class="bg-white rounded-xl shadow-md overflow-hidden border border-slate-200 flex flex-col justify-between hover:shadow-xl transition">
+                            <div class="p-6">
+                                <div class="text-xs font-semibold text-brand-green uppercase tracking-wider mb-2">Financial Planning</div>
+                                <h3 class="text-lg font-bold text-slate-900 mb-3 leading-snug">
+                                    <span class="lang-en">The Real Cost of NOT Outsourcing Bookkeeping: It’s More Than You Think</span>
+                                    <span class="lang-zh hidden">忽视记账外包的隐形成本：远超您的想象</span>
+                                </h3>
+                                <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                                    <span class="lang-en">DIY accounting often leads to missed tax deductions, late CRA penalties, and wasted management energy.</span>
+                                    <span class="lang-zh hidden">亲自做账或拖延记账可能导致扣除额遗漏、CRA 罚款以及管理精力的严重浪费。</span>
+                                </p>
+                            </div>
+                            <div class="px-6 pb-6 pt-0 flex items-center justify-between mt-auto border-t border-slate-100 pt-4">
+                                <span class="text-xs text-slate-400">Jul 2026</span>
+                                <button onclick="openArticle('art-4')" class="text-brand-green font-semibold text-sm hover:underline">
+                                    <span class="lang-en">Read More →</span><span class="lang-zh hidden">阅读全文 →</span>
+                                </button>
+                            </div>
+                        </article>
+
+                        <!-- 文章 5 -->
+                        <article class="bg-white rounded-xl shadow-md overflow-hidden border border-slate-200 flex flex-col justify-between hover:shadow-xl transition">
+                            <div class="p-6">
+                                <div class="text-xs font-semibold text-brand-green uppercase tracking-wider mb-2">Cloud & Technology</div>
+                                <h3 class="text-lg font-bold text-slate-900 mb-3 leading-snug">
+                                    <span class="lang-en">Why Virtual Bookkeeping is the Smart Choice for Modern Businesses</span>
+                                    <span class="lang-zh hidden">为什么云端/虚拟记账是现代企业效率提升的最佳选择</span>
+                                </h3>
+                                <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                                    <span class="lang-en">Harness cloud technology like QuickBooks and Xero for real-time reporting, document security, and financial clarity.</span>
+                                    <span class="lang-zh hidden">利用 QuickBooks 等现代化云端平台，实现实时财务报告、单据加密与清晰现金流。</span>
+                                </p>
+                            </div>
+                            <div class="px-6 pb-6 pt-0 flex items-center justify-between mt-auto border-t border-slate-100 pt-4">
+                                <span class="text-xs text-slate-400">Jul 2026</span>
+                                <button onclick="openArticle('art-5')" class="text-brand-green font-semibold text-sm hover:underline">
+                                    <span class="lang-en">Read More →</span><span class="lang-zh hidden">阅读全文 →</span>
+                                </button>
+                            </div>
+                        </article>
+
+                        <!-- 文章 6 -->
+                        <article class="bg-white rounded-xl shadow-md overflow-hidden border border-slate-200 flex flex-col justify-between hover:shadow-xl transition">
+                            <div class="p-6">
+                                <div class="text-xs font-semibold text-brand-green uppercase tracking-wider mb-2">Myths Debunked</div>
+                                <h3 class="text-lg font-bold text-slate-900 mb-3 leading-snug">
+                                    <span class="lang-en">Common Myths About Outsourced Bookkeeping Dispel</span>
+                                    <span class="lang-zh hidden">破解对记账外包的常见误区与偏见</span>
+                                </h3>
+                                <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                                    <span class="lang-en">Debunking misconceptions regarding data privacy, loss of control, and service affordability for small firms.</span>
+                                    <span class="lang-zh hidden">打破关于数据隐私安全、失去管理控制权以及小企业“用不起外包”的常见误区。</span>
+                                </p>
+                            </div>
+                            <div class="px-6 pb-6 pt-0 flex items-center justify-between mt-auto border-t border-slate-100 pt-4">
+                                <span class="text-xs text-slate-400">Jun 2026</span>
+                                <button onclick="openArticle('art-6')" class="text-brand-green font-semibold text-sm hover:underline">
+                                    <span class="lang-en">Read More →</span><span class="lang-zh hidden">阅读全文 →</span>
+                                </button>
+                            </div>
+                        </article>
+
+                        <!-- 文章 7 -->
+                        <article class="bg-white rounded-xl shadow-md overflow-hidden border border-slate-200 flex flex-col justify-between hover:shadow-xl transition">
+                            <div class="p-6">
+                                <div class="text-xs font-semibold text-brand-green uppercase tracking-wider mb-2">Comparison Guide</div>
+                                <h3 class="text-lg font-bold text-slate-900 mb-3 leading-snug">
+                                    <span class="lang-en">Outsourced Bookkeeping Services vs. In-House Staff</span>
+                                    <span class="lang-zh hidden">记账外包服务 vs 招聘全职内部员工对决</span>
+                                </h3>
+                                <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                                    <span class="lang-en">Side-by-side comparison of total payroll costs, expertise level, software licenses, and management burden.</span>
+                                    <span class="lang-zh hidden">全方位对比人员薪酬、福利开支、专业深度以及管理负担的差异。</span>
+                                </p>
+                            </div>
+                            <div class="px-6 pb-6 pt-0 flex items-center justify-between mt-auto border-t border-slate-100 pt-4">
+                                <span class="text-xs text-slate-400">Jun 2026</span>
+                                <button onclick="openArticle('art-7')" class="text-brand-green font-semibold text-sm hover:underline">
+                                    <span class="lang-en">Read More →</span><span class="lang-zh hidden">阅读全文 →</span>
+                                </button>
+                            </div>
+                        </article>
+
+                        <!-- 文章 8 -->
+                        <article class="bg-white rounded-xl shadow-md overflow-hidden border border-slate-200 flex flex-col justify-between hover:shadow-xl transition">
+                            <div class="p-6">
+                                <div class="text-xs font-semibold text-brand-green uppercase tracking-wider mb-2">Tax Compliance</div>
+                                <h3 class="text-lg font-bold text-slate-900 mb-3 leading-snug">
+                                    <span class="lang-en">Tax Season Readiness: How Organized Bookkeeping Saves Money</span>
+                                    <span class="lang-zh hidden">备战报税季：井井有条的账目如何帮您直接省钱</span>
+                                </h3>
+                                <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                                    <span class="lang-en">Streamline T2 corporate returns, reduce year-end accounting fees, and protect your business against CRA audits.</span>
+                                    <span class="lang-zh hidden">简化 T2 公司所得税申报、降低年终核算费用，全面防范税务局审计风险。</span>
+                                </p>
+                            </div>
+                            <div class="px-6 pb-6 pt-0 flex items-center justify-between mt-auto border-t border-slate-100 pt-4">
+                                <span class="text-xs text-slate-400">May 2026</span>
+                                <button onclick="openArticle('art-8')" class="text-brand-green font-semibold text-sm hover:underline">
+                                    <span class="lang-en">Read More →</span><span class="lang-zh hidden">阅读全文 →</span>
+                                </button>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 文章详情模态框 (Modal Window) -->
+        <div id="article-modal" class="fixed inset-0 bg-slate-900/80 z-50 hidden flex justify-center items-center p-4 overflow-y-auto">
+            <div class="bg-white rounded-xl max-w-3xl w-full max-h-[90vh] overflow-y-auto p-6 sm:p-10 relative shadow-2xl">
+                <button onclick="closeArticle()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-700 text-2xl font-bold">&times;</button>
+                <div id="modal-content">
+                    <!-- 文章内容会由 JS 动态插入 -->
+                </div>
+            </div>
+        </div>
+
+        <!-- 【页面 5】：CONTACT PAGE -->
         <div id="page-contact" class="page-content hidden">
             <section class="py-20 px-4 sm:px-12 bg-white">
                 <div class="max-w-4xl mx-auto text-center mb-12">
@@ -281,7 +488,6 @@
                     </div>
                     
                     <div class="flex flex-col items-center justify-center p-6 bg-white rounded-lg border border-slate-200 text-center">
-                        <!-- 微信二维码 (已匹配 qrcode.jpg) -->
                         <img src="qrcode.jpg" alt="WeChat QR" class="w-48 h-48 mb-3 object-contain">
                         <span class="text-sm text-slate-600 font-medium lang-en">Scan QR code to connect</span>
                         <span class="text-sm text-slate-600 font-medium lang-zh hidden">微信扫码直接添加</span>
@@ -293,7 +499,7 @@
     </main>
 
     <!-- ==========================================
-         4. FOOTER (页脚)
+         4. FOOTER
     =========================================== -->
     <footer class="bg-slate-900 text-slate-400 py-8 px-4 sm:px-12 border-t border-slate-800 text-sm">
         <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
@@ -310,9 +516,214 @@
     </footer>
 
     <!-- ==========================================
-         5. JAVASCRIPT (路由与语言切换)
+         5. JAVASCRIPT & ALL 8 ARTICLES DATA
     =========================================== -->
     <script>
+        let currentLang = 'en';
+
+        // 8 篇文章数据库 (双语)
+        const articles = {
+            'art-1': {
+                en: `
+                    <h2 class="text-2xl font-bold text-slate-900 mb-4">Outsourcing Bookkeeping in Canada: What It Includes, Costs, Benefits, and Best Practices</h2>
+                    <p class="text-xs text-slate-400 mb-6">By Joseph Zhu CPA, CGA | Published: September 2026</p>
+                    <div class="space-y-4 text-slate-700 leading-relaxed">
+                        <p>Managing finances is one of the most vital tasks for any Canadian small business, yet it often consumes valuable time that owners could spend on growing their core business.</p>
+                        <h3 class="text-lg font-bold text-slate-900 mt-6">What Does Outsourced Bookkeeping Include?</h3>
+                        <ul class="list-disc pl-5 space-y-1">
+                            <li><strong>Daily Transaction Recording:</strong> Tracking income, expenses, and categorizing receipts.</li>
+                            <li><strong>Sales Tax Filings:</strong> Managing GST/PST returns according to CRA compliance.</li>
+                            <li><strong>Payroll & T4 Slips:</strong> Processing monthly payroll and preparing annual filings.</li>
+                            <li><strong>Financial Reconciliation:</strong> Matching monthly bank statements with internal ledgers.</li>
+                        </ul>
+                    </div>
+                `,
+                zh: `
+                    <h2 class="text-2xl font-bold text-slate-900 mb-4">加拿大企业记账外包全指南：内容、成本、优势与合规实践</h2>
+                    <p class="text-xs text-slate-400 mb-6">作者: Joseph Zhu CPA, CGA | 发布时间: 2026年9月</p>
+                    <div class="space-y-4 text-slate-700 leading-relaxed">
+                        <p>对加拿大许多中小企业而言，财务管理至关重要，但日常繁琐的记账往往占用了企业主拓展业务的大量精力。</p>
+                        <h3 class="text-lg font-bold text-slate-900 mt-6">记账外包通常包含哪些内容？</h3>
+                        <ul class="list-disc pl-5 space-y-1">
+                            <li><strong>日常流水记录：</strong> 准确分类与录入各项收入、支出与原始凭证。</li>
+                            <li><strong>消费税申报（GST/PST）：</strong> 按 CRA 税务局要求定期编制并准时申报。</li>
+                            <li><strong>员工薪酬与 T4 开具：</strong> 自动化薪酬计算及年终 T4/T5 汇总。</li>
+                            <li><strong>银行与信用卡对账：</strong> 确保每月账目与真实流水严格吻合。</li>
+                        </ul>
+                    </div>
+                `
+            },
+            'art-2': {
+                en: `
+                    <h2 class="text-2xl font-bold text-slate-900 mb-4">How to Find a Great Accountant for Your Business in Canada</h2>
+                    <p class="text-xs text-slate-400 mb-6">By Joseph Zhu CPA, CGA | Published: August 2026</p>
+                    <div class="space-y-4 text-slate-700 leading-relaxed">
+                        <p>A good accountant does more than just file tax returns at the end of the year—they act as a strategic financial partner to protect your business and maximize your profit.</p>
+                        <h3 class="text-lg font-bold text-slate-900 mt-6">Key Qualifications to Look For</h3>
+                        <ol class="list-decimal pl-5 space-y-2">
+                            <li><strong>Professional Designation:</strong> Ensure they hold a recognized Canadian designation like CPA, CGA.</li>
+                            <li><strong>Bilingual Communication:</strong> Having an advisor who understands both English and Chinese removes communication barriers.</li>
+                            <li><strong>Strategic Tax Planning:</strong> Look for expertise in shareholder salary vs. dividend structures and corporate tax minimization.</li>
+                        </ol>
+                    </div>
+                `,
+                zh: `
+                    <h2 class="text-2xl font-bold text-slate-900 mb-4">如何在加拿大寻找并选择最适合您的专业 CPA 会计师</h2>
+                    <p class="text-xs text-slate-400 mb-6">作者: Joseph Zhu CPA, CGA | 发布时间: 2026年8月</p>
+                    <div class="space-y-4 text-slate-700 leading-relaxed">
+                        <p>一位优秀的会计师不仅是在年底帮您完成报税，更是您企业发展过程中保障税务安全、优化财务结构的战略伙伴。</p>
+                        <h3 class="text-lg font-bold text-slate-900 mt-6">选择会计师的关键考量标准</h3>
+                        <ol class="list-decimal pl-5 space-y-2">
+                            <li><strong>专业执照与资质：</strong> 确保其具备加拿大官方认证的 CPA, CGA 执业资质。</li>
+                            <li><strong>双语沟通无障碍：</strong> 能够熟练运用中英双语沟通财税细节的会计师能帮您更精准地理解复杂的税务规定。</li>
+                            <li><strong>前瞻性税务规划：</strong> 能为您量身定制股东薪酬与分红策略，降低整体企业税负。</li>
+                        </ol>
+                    </div>
+                `
+            },
+            'art-3': {
+                en: `
+                    <h2 class="text-2xl font-bold text-slate-900 mb-4">Why More Canadian Businesses are Choosing Outsourced Bookkeeping</h2>
+                    <p class="text-xs text-slate-400 mb-6">By Joseph Zhu CPA, CGA | Published: August 2026</p>
+                    <div class="space-y-4 text-slate-700 leading-relaxed">
+                        <p>As the economic landscape becomes more competitive, Canadian business owners are recognizing the strategic advantage of lean operation. Outsourcing bookkeeping allows companies to gain high-level expertise without overhead costs.</p>
+                        <h3 class="text-lg font-bold text-slate-900 mt-6">Key Driving Factors</h3>
+                        <p>1. Reduced Payroll Overhead (no EI, CPP, or benefits payments).<br>2. Scalability as your company grows.<br>3. Instant access to professional tax expertise.</p>
+                    </div>
+                `,
+                zh: `
+                    <h2 class="text-2xl font-bold text-slate-900 mb-4">为什么越来越多加拿大企业转向记账外包服务？</h2>
+                    <p class="text-xs text-slate-400 mb-6">作者: Joseph Zhu CPA, CGA | 发布时间: 2026年8月</p>
+                    <div class="space-y-4 text-slate-700 leading-relaxed">
+                        <p>随着商业竞争日益激烈，加拿大企业主越来越意识到精简运营的策略优势。将簿记与记账外包给专业的会计师事务所，能在不增加固定人力成本的前提下获得高水准的服务。</p>
+                        <h3 class="text-lg font-bold text-slate-900 mt-6">核心驱动因素</h3>
+                        <p>1. 显著降低员工薪酬开支（无需缴纳雇主端的 EI、CPP 及员工福利）。<br>2. 伴随企业发展可随时扩展服务范畴。<br>3. 无缝衔接专业 CPA 的税务规划资源。</p>
+                    </div>
+                `
+            },
+            'art-4': {
+                en: `
+                    <h2 class="text-2xl font-bold text-slate-900 mb-4">The Real Cost of NOT Outsourcing Bookkeeping: It’s More Than You Think</h2>
+                    <p class="text-xs text-slate-400 mb-6">By Joseph Zhu CPA, CGA | Published: July 2026</p>
+                    <div class="space-y-4 text-slate-700 leading-relaxed">
+                        <p>Many entrepreneurs think they save money by managing their books themselves or delaying accounting tasks. However, the hidden costs often outweigh the perceived savings.</p>
+                        <h3 class="text-lg font-bold text-slate-900 mt-6">Hidden Costs Include:</h3>
+                        <ul class="list-disc pl-5 space-y-1">
+                            <li><strong>CRA Late Filing Penalties & Interest:</strong> Late GST/PST or T2 filings attract compound interest daily.</li>
+                            <li><strong>Missed Tax Deductions:</strong> Poor recordkeeping means losing out on legitimate expense write-offs.</li>
+                            <li><strong>Opportunity Cost:</strong> Hours spent sorting receipts are hours lost in business development.</li>
+                        </ul>
+                    </div>
+                `,
+                zh: `
+                    <h2 class="text-2xl font-bold text-slate-900 mb-4">忽视记账外包的隐形成本：远超您的想象</h2>
+                    <p class="text-xs text-slate-400 mb-6">作者: Joseph Zhu CPA, CGA | 发布时间: 2026年7月</p>
+                    <div class="space-y-4 text-slate-700 leading-relaxed">
+                        <p>许多初创企业家认为自己亲力亲为记账或拖延处理账目可以节省费用。然而，账目混乱带来的隐形开支往往远超您的想象。</p>
+                        <h3 class="text-lg font-bold text-slate-900 mt-6">常见的隐形成本：</h3>
+                        <ul class="list-disc pl-5 space-y-1">
+                            <li><strong>CRA 滞纳金与利息：</strong> GST/PST 或 T2 延迟申报将产生高额日息及罚款。</li>
+                            <li><strong>合法抵税额遗漏：</strong> 不规范的凭证记录会导致大量合法开支无法在税前扣除。</li>
+                            <li><strong>机会成本消耗：</strong> 企业主将本可以用来拓展业务的时间浪费在了对账与搜集发票上。</li>
+                        </ul>
+                    </div>
+                `
+            },
+            'art-5': {
+                en: `
+                    <h2 class="text-2xl font-bold text-slate-900 mb-4">Why Virtual Bookkeeping is the Smart Choice for Modern Business</h2>
+                    <p class="text-xs text-slate-400 mb-6">By Joseph Zhu CPA, CGA | Published: July 2026</p>
+                    <div class="space-y-4 text-slate-700 leading-relaxed">
+                        <p>Traditional accounting methods involving shoeboxes of paper receipts are fast becoming obsolete. Modern cloud-based bookkeeping streamlines document collection and provides real-time financial tracking.</p>
+                        <h3 class="text-lg font-bold text-slate-900 mt-6">Benefits of Going Cloud-Based</h3>
+                        <ul class="list-disc pl-5 space-y-1">
+                            <li><strong>Anytime Access:</strong> View financial health directly from your mobile device or desktop.</li>
+                            <li><strong>High Data Security:</strong> Bank-level encryption protects your financial data.</li>
+                            <li><strong>Seamless CRA Defense:</strong> Digital records make tax audit defense faster and stress-free.</li>
+                        </ul>
+                    </div>
+                `,
+                zh: `
+                    <h2 class="text-2xl font-bold text-slate-900 mb-4">为什么云端/虚拟记账是现代企业效率提升的最佳选择</h2>
+                    <p class="text-xs text-slate-400 mb-6">作者: Joseph Zhu CPA, CGA | 发布时间: 2026年7月</p>
+                    <div class="space-y-4 text-slate-700 leading-relaxed">
+                        <p>传统将鞋盒里塞满纸质发票送到会计师楼的做法正迅速成为过去。现代化云端记账大幅提升了单据收集效率与数据准确性。</p>
+                        <h3 class="text-lg font-bold text-slate-900 mt-6">云端记账的核心优势</h3>
+                        <ul class="list-disc pl-5 space-y-1">
+                            <li><strong>随时随地查看：</strong> 随时通过手机或电脑掌握企业经营现金流与损益。</li>
+                            <li><strong>银行级安全防护：</strong> 加密云端存储，防止纸质文件丢失或损坏。</li>
+                            <li><strong>审计应对更轻松：</strong> 数字化凭证管理使得面对 CRA 检查时举证更为便捷高效。</li>
+                        </ul>
+                    </div>
+                `
+            },
+            'art-6': {
+                en: `
+                    <h2 class="text-2xl font-bold text-slate-900 mb-4">Common Myths About Outsourced Bookkeeping Dispel</h2>
+                    <p class="text-xs text-slate-400 mb-6">By Joseph Zhu CPA, CGA | Published: June 2026</p>
+                    <div class="space-y-4 text-slate-700 leading-relaxed">
+                        <p>Misconceptions often prevent business owners from adopting modern accounting solutions. Let's dispel the most common myths:</p>
+                        <p><strong>Myth 1: "I will lose control of my business finances."</strong><br>Reality: You gain clearer, real-time insights with monthly reporting dashboard.</p>
+                        <p><strong>Myth 2: "Outsourcing is only for large enterprises."</strong><br>Reality: Services are customizable and priced scaling with your business size.</p>
+                    </div>
+                `,
+                zh: `
+                    <h2 class="text-2xl font-bold text-slate-900 mb-4">破解对记账外包的常见误区与偏见</h2>
+                    <p class="text-xs text-slate-400 mb-6">作者: Joseph Zhu CPA, CGA | 发布时间: 2026年6月</p>
+                    <div class="space-y-4 text-slate-700 leading-relaxed">
+                        <p>对记账外包的误解常常阻碍企业主采用更高效的财务方案。让我们来逐一拆解最常见的误区：</p>
+                        <p><strong>误区一：“外包会让我失去对公司财务的控制权。”</strong><br>事实：专业的每月报表与可视化看板反而能让您对现金流有更全面、准确的把控。</p>
+                        <p><strong>误区二：“外包是大型企业才用得起的服务。”</strong><br>事实：专业记账外包按需付费，非常适合初创与小微企业控制成本。</p>
+                    </div>
+                `
+            },
+            'art-7': {
+                en: `
+                    <h2 class="text-2xl font-bold text-slate-900 mb-4">Outsourced Bookkeeping Services vs. In-House Staff</h2>
+                    <p class="text-xs text-slate-400 mb-6">By Joseph Zhu CPA, CGA | Published: June 2026</p>
+                    <div class="space-y-4 text-slate-700 leading-relaxed">
+                        <p>Should you hire an in-house bookkeeper or partner with an outsourced CPA firm? Here is how they stack up:</p>
+                        <ul class="list-disc pl-5 space-y-2">
+                            <li><strong>In-House Staff:</strong> Requires full-time salary, benefits, vacation pay, office space, and software licenses.</li>
+                            <li><strong>Outsourced CPA Firm:</strong> Pay only for the exact volume of work required, backed by continuous professional oversight and zero hiring risks.</li>
+                        </ul>
+                    </div>
+                `,
+                zh: `
+                    <h2 class="text-2xl font-bold text-slate-900 mb-4">记账外包服务 vs 招聘全职内部员工对决</h2>
+                    <p class="text-xs text-slate-400 mb-6">作者: Joseph Zhu CPA, CGA | 发布时间: 2026年6月</p>
+                    <div class="space-y-4 text-slate-700 leading-relaxed">
+                        <p>到底应该在公司招聘全职记账员，还是与专业 CPA 事务所合作外包？以下是两者的核心对比：</p>
+                        <ul class="list-disc pl-5 space-y-2">
+                            <li><strong>全职内部员工：</strong> 需要支付固定年薪、法定福利、带薪假期，并提供办公场地与软件账号，综合成本高。</li>
+                            <li><strong>外包 CPA 事务所：</strong> 按实际业务量付费，享受连续无间断的专业监督与合规保障，无招聘与离职风险。</li>
+                        </ul>
+                    </div>
+                `
+            },
+            'art-8': {
+                en: `
+                    <h2 class="text-2xl font-bold text-slate-900 mb-4">Tax Season Readiness: How Organized Bookkeeping Saves Money</h2>
+                    <p class="text-xs text-slate-400 mb-6">By Joseph Zhu CPA, CGA | Published: May 2026</p>
+                    <div class="space-y-4 text-slate-700 leading-relaxed">
+                        <p>Tax season doesn't have to be stressful. By maintaining organized books year-round, you significantly cut down year-end accounting fees and speed up corporate filing.</p>
+                        <h3 class="text-lg font-bold text-slate-900 mt-6">Tips for Tax Readiness</h3>
+                        <p>1. Keep digital copies of all receipts.<br>2. Reconcile bank statements monthly.<br>3. Separate business and personal bank accounts completely.</p>
+                    </div>
+                `,
+                zh: `
+                    <h2 class="text-2xl font-bold text-slate-900 mb-4">备战报税季：井井有条的账目如何帮您直接省钱</h2>
+                    <p class="text-xs text-slate-400 mb-6">作者: Joseph Zhu CPA, CGA | 发布时间: 2026年5月</p>
+                    <div class="space-y-4 text-slate-700 leading-relaxed">
+                        <p>报税季不一定意味着手忙脚乱。只要平时保持清晰有序的日常记账，就能大幅降低年终会计核算成本，并加快 T2 公司报税进度。</p>
+                        <h3 class="text-lg font-bold text-slate-900 mt-6">备战报税季的实用建议</h3>
+                        <p>1. 保持所有消费发票的电子化归档。<br>2. 每月按时进行银行与信用卡对账。<br>3. 严禁公司账户与个人私户混用。</p>
+                    </div>
+                `
+            }
+        };
+
+        // 页面切换路由
         function switchPage(pageId) {
             const pages = document.querySelectorAll('.page-content');
             pages.forEach(page => page.classList.add('hidden'));
@@ -337,7 +748,9 @@
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
+        // 语言切换函数
         function setLanguage(lang) {
+            currentLang = lang;
             const enElements = document.querySelectorAll('.lang-en');
             const zhElements = document.querySelectorAll('.lang-zh');
             const btnEn = document.getElementById('btn-lang-en');
@@ -356,6 +769,22 @@
                 btnZh.className = 'flex items-center text-brand-green font-semibold';
                 btnEn.className = 'flex items-center text-slate-400 hover:text-white';
             }
+        }
+
+        // 打开博客文章弹窗
+        function openArticle(artKey) {
+            const modal = document.getElementById('article-modal');
+            const modalContent = document.getElementById('modal-content');
+            if (articles[artKey]) {
+                modalContent.innerHTML = articles[artKey][currentLang];
+                modal.classList.remove('hidden');
+            }
+        }
+
+        // 关闭博客文章弹窗
+        function closeArticle() {
+            const modal = document.getElementById('article-modal');
+            modal.classList.add('hidden');
         }
     </script>
 </body>
