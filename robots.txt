@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ambitionvan.github.io/my-cpa-website/sitemap.xml
