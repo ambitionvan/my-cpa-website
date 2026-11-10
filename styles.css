@@ -21,6 +21,8 @@ details.mnav div a{display:block;padding:9px 18px;color:#fff;text-decoration:non
 .hero .firm{font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:14px;color:#86efac;margin:0 0 10px}
 .hero h1{font-size:clamp(28px,4vw,42px);line-height:1.2;margin:0 0 16px}
 .hero p.lead{font-size:18px;color:#e2e8f0;margin:0 0 26px}
+.hero-points{list-style:none;margin:0 0 26px;padding:0;font-size:22px;line-height:1.55;font-weight:700;color:#fff}
+.hero-points li{margin:0 0 8px}
 .btns{display:flex;gap:10px;flex-wrap:wrap}.btn{display:inline-block;padding:12px 22px;border-radius:999px;font-weight:600;text-decoration:none}
 .btn.g{background:var(--green);color:#fff}.btn.g:hover{background:var(--green2)}.btn.o{border:1px solid #cbd5e1;color:#fff}
 .card{background:#fff;color:var(--ink);border-radius:14px;padding:22px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
