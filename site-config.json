@@ -1,0 +1,19 @@
+{
+  "_note_en": "Tentative: primary name everywhere is Joseph Zhu, CPA, CGA, matching CPA BC Firm Directory (Firm Name: Joseph Zhu, CPA; Practitioner: Zhixiong [Joseph] Zhu, CPA, CGA). Greenbeans CPA is alternateName only, in schema, to link the Google listing. To rename later, run one command, e.g. python3 apply-brand.py --brand \"New Firm Name\".",
+  "_note_zh": "暂定：全部主名都用 Joseph Zhu, CPA, CGA，因为 CPA BC Firm Directory 就是这么登记的（Firm Name: Joseph Zhu, CPA；Practitioner: Zhixiong [Joseph] Zhu, CPA, CGA）。Greenbeans CPA 只留作 alternateName，藏在结构化数据里，用来连 Google 商家那个名字，不是主名。以后定稿只运行一条命令改名，例如：python3 apply-brand.py --brand \"新公司名\"。",
+  "address": "3173 E 8th Ave, Vancouver, BC V5M 1X5",
+  "brand_name": "Joseph Zhu, CPA, CGA",
+  "domain_candidate_not_bought": "greenbeanscpa.ca",
+  "email": "ambitionvan@gmail.com",
+  "google_maps_cid": "5789174173963075167",
+  "person_full": "Joseph Zhu, CPA, CGA",
+  "person_legal": "Zhixiong (Joseph) Zhu",
+  "person_name": "Joseph Zhu",
+  "phone": "+1 604 728 1508",
+  "site_url": "https://ambitionvan.github.io/my-cpa-website",
+  "site_url_with_slash": "https://ambitionvan.github.io/my-cpa-website/",
+  "status": "placeholder - primary name Joseph Zhu, CPA, CGA per CPA BC directory; Greenbeans CPA is alternate only",
+  "wechat": "YourTaxHelper",
+  "brand_alternate": "Greenbeans CPA",
+  "cpa_bc_directory_verified": "2026-11-10: Firm Name Joseph Zhu, CPA; Practitioner Zhixiong [Joseph] Zhu, CPA, CGA; Compilation, Active; 3173 E 8th Ave, (604) 728-1508"
+}
