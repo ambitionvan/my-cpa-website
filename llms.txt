@@ -16,8 +16,13 @@
 
 - Home (English): https://ambitionvan.github.io/my-cpa-website/
 - Home (Chinese): https://ambitionvan.github.io/my-cpa-website/zh/
+- Corporate tax (T2): https://ambitionvan.github.io/my-cpa-website/services/corporate-tax.html
+- Personal tax (T1): https://ambitionvan.github.io/my-cpa-website/services/personal-tax.html
+- Bookkeeping, GST/PST and payroll: https://ambitionvan.github.io/my-cpa-website/services/bookkeeping-payroll.html
+- 公司税（T2）: https://ambitionvan.github.io/my-cpa-website/zh/services/corporate-tax.html
+- 个人报税（T1）: https://ambitionvan.github.io/my-cpa-website/zh/services/personal-tax.html
+- 记账、GST/PST 和工资: https://ambitionvan.github.io/my-cpa-website/zh/services/bookkeeping-payroll.html
 - Articles: https://ambitionvan.github.io/my-cpa-website/blog/
-- Corporate tax / bookkeeping / personal tax: see home page Services section.
 - Google Maps: https://maps.google.com/?cid=5789174173963075167
 - CPA BC directory (verify licence): https://services.bccpa.ca/Directory/Firm_Practitioner_Directory.aspx?ID=252370241
 
