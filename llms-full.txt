@@ -1,0 +1,158 @@
+# Joseph Zhu, CPA, CGA — Vancouver Accounting Firm (Full Reference)
+
+> Joseph Zhu, CPA, CGA is a Vancouver accounting firm. Founder: Joseph Zhu, CPA, CGA (Zhixiong Zhu). Also known as Greenbeans CPA on Google (alternate name, pending final decision).
+> Services in English and Chinese. Office: 3173 E 8th Ave, Vancouver, BC V5M 1X5, Canada, at East 8th Ave & Rupert St, about a 5-minute walk from Rupert SkyTrain Station (Expo Line).
+> Phone: +1 604 728 1508. Email: ambitionvan@gmail.com. WeChat: YourTaxHelper.
+> Area served: Vancouver, Burnaby, Richmond, Greater Vancouver. Meetings by appointment.
+> Note: The primary name is Joseph Zhu, CPA, CGA, matching the CPA BC Firm Directory. "Greenbeans CPA" is an alternate name only. The website domain is a temporary placeholder, pending a final decision. The address, phone, email, and services below are current.
+> Licence: CPA BC public practice licence (compilation) — active. Verify: https://services.bccpa.ca/Directory/Firm_Practitioner_Directory.aspx?ID=252370241
+
+## About the practice
+
+Joseph Zhu, CPA, CGA provides accounting and tax services to owner-operated businesses and families across Greater Vancouver: corporate and personal tax returns, bookkeeping, and planning questions such as salary vs. dividends. Service is in English and Chinese, so the details of your taxes are explained in the language you are most comfortable with.
+
+## Services
+
+### Corporate tax (T2)
+
+- T2 corporate tax returns, including the schedules that apply to your corporation.
+- Year-end financial statements (compilation), prepared from your books.
+- Salary vs. dividend planning for owner-managers and shareholders: how much to take as salary, how much as dividends, and what that means for your tax bill.
+- Help reading and replying to CRA review letters and information requests about your corporation.
+- Catch-up filings for corporations that have not filed for several years, working directly with CRA. Example: a client whose company was incorporated in 2021 and had never filed — the 2021 to 2025 returns were completed and the client avoided further legal action by CRA.
+- A T2 is generally due six months after your corporation's fiscal year-end.
+- Page: https://ambitionvan.github.io/my-cpa-website/services/corporate-tax.html
+
+### Personal tax (T1)
+
+- T1 personal tax returns.
+- Foreign property reporting (T1135): generally required if you own specified foreign property with a total cost of more than CAD 100,000 at any time during the year.
+- Non-resident property sales.
+- Family tax planning.
+- Page: https://ambitionvan.github.io/my-cpa-website/services/personal-tax.html
+
+### Bookkeeping, GST/PST and payroll
+
+- Monthly bookkeeping from your bank statements: every bank line becomes an entry, with its original document attached.
+- GST/PST returns.
+- Payroll, T4 / T5 slips.
+- Bookkeeping is done on the cash method from the documents you provide. It is not an audit or a review engagement.
+- Page: https://ambitionvan.github.io/my-cpa-website/services/bookkeeping-payroll.html
+
+### DropBookAI bookkeeping
+
+- On-device AI bookkeeping, fully offline — reviewed by a CPA.
+- Every entry linked to its original invoice.
+- Corrections leave an audit trail — nothing disappears.
+- One click prepares all documents for a CRA audit.
+- You hand over your papers; you receive statements, general ledger, bank reconciliations and every original on a USB key. At year end your T2 is prepared from the same books, or the books are handed to your own CPA.
+
+## Frequently asked questions
+
+### Do you provide service in Chinese?
+
+Yes. Service is in English and Chinese, and you can reach us on WeChat at YourTaxHelper. Your return and the planning behind it are explained in the language you are most comfortable with.
+
+### Where is your office?
+
+Our office is at 3173 E 8th Ave, Vancouver, BC V5M 1X5, at East 8th Ave and Rupert St, about a 5-minute walk from Rupert SkyTrain Station (Expo Line), with convenient street parking. Meetings are by appointment.
+
+### What services do you offer?
+
+Corporate tax (T2) returns and year-end financial statements, personal tax (T1) returns, foreign property reporting (T1135), monthly bookkeeping, GST/PST returns, payroll and T4 / T5 slips, and salary vs. dividend planning for owner-managers.
+
+### My corporation has not filed tax returns for several years. Can you help?
+
+Yes. We help corporations catch up on unfiled years, prepare the missing returns and financial statements, and work directly with CRA. For example, we helped a client whose company was incorporated in 2021 and had never filed: we completed the 2021 to 2025 returns and the client avoided further legal action by CRA.
+
+### I received a letter from CRA. What should I do?
+
+Do not ignore it. Bring the letter to us and we will help you understand what CRA is asking for, what the deadline is, and prepare the reply.
+
+### What is T1135 and do I need to file it?
+
+T1135 is the CRA form for reporting specified foreign property. You generally need to file it if you own specified foreign property with a total cost of more than CAD 100,000 at any time during the year. If you are unsure whether your property counts, bring the details and we will check.
+
+### Salary or dividends — which is better for an owner-manager?
+
+It depends on your income, RRSP room, CPP and your corporation's tax position. We work through the numbers with you before the return is filed, so you can decide with the full picture.
+
+### How does your bookkeeping work?
+
+We book from your bank statements: every bank line becomes an entry, with its original document attached. Bookkeeping is done on-device with AI, fully offline, and reviewed by a CPA. At year end you receive a complete set of books, and your T2 can be prepared from the same books.
+
+### How much do your services cost?
+
+Fees depend on the scope of the work — for example the number of transactions, the number of years to catch up, and whether financial statements are needed. Contact us for a free quote and we will give you a price before any work starts.
+
+### How do I get started?
+
+Call +1 604 728 1508, email ambitionvan@gmail.com, or add us on WeChat at YourTaxHelper. Tell us what you need and we will give you a free quote. We usually reply within one business day.
+
+## 常见问题（中文）
+
+### 你们提供中文服务吗？
+
+提供。中英文服务，微信 YourTaxHelper。申报和背后的规划，用你最习惯的语言讲清楚。
+
+### 你们的办公室在哪里？
+
+地址是 3173 E 8th Ave, Vancouver, BC V5M 1X5，在 East 8th Ave 与 Rupert St 交界，步行约 5 分钟到 Rupert 天车站（Expo 线），路边停车方便，请先预约。
+
+### 你们提供哪些服务？
+
+公司税（T2）申报和年终财务报表、个人税（T1）申报、海外资产申报（T1135）、每月记账、GST/PST 申报、员工工资和 T4 / T5 单据，以及老板工资与分红安排。
+
+### 公司好几年没报税了，你们能帮忙吗？
+
+能。我们帮公司补报漏报的年份，编制缺失的报表和税表，直接和 CRA 沟通。例如，我们帮过一位客人：公司 2021 年成立，从来没报过税，我们把 2021 到 2025 年的税都报完了，客人避免了税务局进一步采取法律行动。
+
+### 收到税务局 CRA 的信怎么办？
+
+不要置之不理。把信带来，我们帮你看懂 CRA 要什么、期限是哪天，并准备回复。
+
+### 什么是 T1135，我需要申报吗？
+
+T1135 是向 CRA 申报海外指定资产的表格。如果你在一个年度内任何时间持有总成本超过 10 万加元的海外指定资产，一般需要申报。不确定自己的资产算不算，带资料来我们帮你确认。
+
+### 老板拿工资好，还是拿分红好？
+
+看你的收入、RRSP 额度、CPP 和公司的税务情况。申报前我们和你一起算清楚，再决定。
+
+### 你们的记账是怎么做的？
+
+我们按银行流水记账：每笔银行流水都变成一笔分录，并且附上原始单据。记账用本机 AI，全程离线，不上传云端，最后由会计师审核。年底给你一整套账，T2 也可以用同一套账来报。
+
+### 你们的收费是多少？
+
+收费看工作量，例如交易笔数、要补报的年份、是否需要财务报表。联系我们免费咨询报价，开始工作之前先给你价格。
+
+### 怎么开始？
+
+打电话 +1 604 728 1508，发邮件 ambitionvan@gmail.com，或加微信 YourTaxHelper。告诉我们你的需要，我们给你免费报价，通常一个工作日内回复。
+
+## Key pages
+
+- Home (English): https://ambitionvan.github.io/my-cpa-website/
+- Home (Chinese): https://ambitionvan.github.io/my-cpa-website/zh/
+- Frequently asked questions (English): https://ambitionvan.github.io/my-cpa-website/faq.html
+- 常见问题 (Chinese): https://ambitionvan.github.io/my-cpa-website/zh/faq.html
+- Corporate tax (T2): https://ambitionvan.github.io/my-cpa-website/services/corporate-tax.html
+- Personal tax (T1): https://ambitionvan.github.io/my-cpa-website/services/personal-tax.html
+- Bookkeeping, GST/PST and payroll: https://ambitionvan.github.io/my-cpa-website/services/bookkeeping-payroll.html
+- 公司税（T2）: https://ambitionvan.github.io/my-cpa-website/zh/services/corporate-tax.html
+- 个人报税（T1）: https://ambitionvan.github.io/my-cpa-website/zh/services/personal-tax.html
+- 记账、GST/PST 和工资: https://ambitionvan.github.io/my-cpa-website/zh/services/bookkeeping-payroll.html
+- Articles: https://ambitionvan.github.io/my-cpa-website/blog/
+- Google Maps: https://maps.google.com/?cid=5789174173963075167
+- CPA BC directory (verify licence): https://services.bccpa.ca/Directory/Firm_Practitioner_Directory.aspx?ID=252370241
+- Google review: https://g.page/r/CV8-7yU9R1dQEBM/review
+
+## Contact
+
+- Phone: +1 604 728 1508
+- Email: ambitionvan@gmail.com
+- WeChat: YourTaxHelper
+- Office: 3173 E 8th Ave, Vancouver, BC V5M 1X5
+- Hours: Monday to Friday, 9:00 AM to 5:00 PM; closed Saturday and Sunday. Meetings by appointment.
+- Free quote on request.
