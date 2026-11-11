@@ -41,7 +41,7 @@ Joseph Zhu, CPA, CGA provides accounting and tax services to owner-operated busi
 
 ### DropBookAI bookkeeping
 
-- On-device AI bookkeeping, fully offline — reviewed by a CPA.
+- Air-gapped, on-premises AI bookkeeping — reviewed by a CPA.
 - Every entry linked to its original invoice.
 - Corrections leave an audit trail — nothing disappears.
 - One click prepares all documents for a CRA audit.
@@ -79,7 +79,7 @@ It depends on your income, RRSP room, CPP and your corporation's tax position. W
 
 ### How does your bookkeeping work?
 
-We book from your bank statements: every bank line becomes an entry, with its original document attached. Bookkeeping is done on-device with AI, fully offline, and reviewed by a CPA. At year end you receive a complete set of books, and your T2 can be prepared from the same books.
+We book from your bank statements: every bank line becomes an entry, with its original document attached. Bookkeeping is done with air-gapped, on-premises AI, and reviewed by a CPA. At year end you receive a complete set of books, and your T2 can be prepared from the same books.
 
 ### How much do your services cost?
 
@@ -121,7 +121,7 @@ T1135 是向 CRA 申报海外指定资产的表格。如果你在一个年度内
 
 ### 你们的记账是怎么做的？
 
-我们按银行流水记账：每笔银行流水都变成一笔分录，并且附上原始单据。记账用本机 AI，全程离线，不上传云端，最后由会计师审核。年底给你一整套账，T2 也可以用同一套账来报。
+我们按银行流水记账：每笔银行流水都变成一笔分录，并且附上原始单据。记账用本地部署、断网隔离的 AI，不上传云端，最后由会计师审核。年底给你一整套账，T2 也可以用同一套账来报。
 
 ### 你们的收费是多少？
 
